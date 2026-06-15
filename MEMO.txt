@@ -1,0 +1,4 @@
+~/.config/nvim
+
+Hack Nerd Font Mono
+
