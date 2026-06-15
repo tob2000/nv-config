@@ -32,4 +32,13 @@ return {
       },
     },
   },
+
+  {
+    "MeanderingProgrammer/render-markdown.nvim",
+    opts = {
+      anti_conceal = {
+        disabled_modes = { "n", "c", "t", "v", "V", "\22" },
+      },
+    },
+  },
 }
