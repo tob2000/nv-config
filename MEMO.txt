@@ -1,4 +1,4 @@
-~/.config/nvim
+git status/snacks - alt+m = max
 
 Hack Nerd Font Mono
 
