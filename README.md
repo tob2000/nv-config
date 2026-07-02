@@ -53,6 +53,12 @@ nvim README.md
 | `<leader>um` | Toggle in-buffer markdown render |
 | `<leader>cp` | Toggle browser markdown preview  |
 
+Long cell example (test soft-wrapping inside the table area):
+
+| Column A | Very long description that should hopefully soft-wrap when the window is narrow instead of making the entire table super wide |
+|----------|------------------------------------------------------------------------------------------------------------------------------------|
+| Short    | Another extremely long piece of text here to see how the rendering + wrap + breakindent behaves on this row.                   |
+
 ---
 
 If everything looks good, delete this test section or keep it as a quick reference.
