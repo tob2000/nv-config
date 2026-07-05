@@ -1,4 +1,6 @@
 git status/snacks - alt+m = max
+nav back ctrl+o
+nav fram ctrl+i
 
 Hack Nerd Font Mono
 
