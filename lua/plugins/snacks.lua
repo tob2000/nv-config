@@ -2,6 +2,20 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
+
+      zen = {
+        center = true,           
+        win = {
+          width = 160,     
+          -- width = 0,       -- full bredd (samma som Zoom Mode)
+          backdrop = {       
+            transparent = true,
+            blend = 40,        
+          },
+        },
+      },
+
+      --- 
       picker = {
         win = {
           input = {
