@@ -21,3 +21,6 @@ vim.keymap.set("n", "<F4>", dap.step_out)
 --- x delete without copy to memory
 vim.keymap.set({ "n", "x" }, "x", '"_x', { silent = true })
 vim.keymap.set({ "n", "x" }, "X", '"_X', { silent = true })
+
+--- escape terminal -- double esc
+vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
